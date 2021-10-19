@@ -1,0 +1,116 @@
+/*corps*/
+
+
+body
+{
+	background: url('Images/Fond.png');
+	font-family: verdana;impact;arial;
+	}
+
+
+/*header*/
+
+header{
+	background: black;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	color: white;
+}	
+
+nav ul{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+}
+
+.elementmenu{
+	margin-right: 12px;
+	margin-left: 12px;
+	border-left: 1px solid white;
+	padding-left: 6px;
+}
+
+#logo{
+	margin-left: 5px;
+	margin-bottom: -40px;
+}
+
+#logo img
+{
+	width: 80%;
+	height: 80%;
+}
+
+.menu a:hover{
+	color: grey;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+/*section*/
+
+h1{
+	color: black;
+	text-align: center;
+	font-size: 2.5em;
+	margin-top: 70px;
+}
+
+.bloc_recette{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	height: 800px;
+}
+
+.image{
+	box-shadow: 6px 6px 10px grey;	
+}
+
+
+.titre{
+	background: rgba(24,24,24,0.9);
+	padding: 10px 0px 10px 5px;
+}
+
+h2{
+	color: #ffc404; /*ou rgb(148,188,4)*/
+	font-size:1em;
+}
+
+h3{
+	color: white;
+	font-size:0.8em;
+}
+
+h2,h3{
+	display: inline;
+}
+
+/*footer*/
+
+footer{
+	background: black;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	color: white;
+}	
+
+nav ul{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+}
+
+.elementmenu{
+	margin-right: 12px;
+	margin-left: 12px;
+	border-left: 1px solid white;
+	padding-left: 6px;
+}
